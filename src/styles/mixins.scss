@@ -4,20 +4,150 @@
 }
 
 // Typography
+
+// region text-header
+@mixin text-header-100() {
+    font-size: var(--gl-text-header-100-fs);
+    line-height: var(--gl-text-header-100-lh);
+    font-weight: var(--gl-text-header-font-weight);
+}
+
+@mixin text-header-200() {
+    font-size: var(--gl-text-header-200-fs);
+    line-height: var(--gl-text-header-200-lh);
+    font-weight: var(--gl-text-header-font-weight);
+}
+//endregion
+
+// region text-subheader
+@mixin text-subheader-100(){
+    font-size: var(--gl-text-subheader-100-fs);
+    line-height: var(--gl-text-subheader-100-lh);
+    font-weight: var(--gl-text-subheader-font-weight);
+}
+
+@mixin text-subheader-200(){
+    font-size: var(--gl-text-subheader-200-fs);
+    line-height: var(--gl-text-subheader-200-lh);
+    font-weight: var(--gl-text-subheader-font-weight);
+}
+
+@mixin text-subheader-300(){
+    font-size: var(--gl-text-subheader-300-fs);
+    line-height: var(--gl-text-subheader-300-lh);
+    font-weight: var(--gl-text-subheader-font-weight);
+}
+
+//endregion
+
+// region text-body
 @mixin text-body-100() {
-  font-size: var();
-  line-height: var();
-  font-weight: var();
+    font-size: var(--gl-text-body-100-fs);
+    line-height: var(--gl-text-body-100-lh);
+    font-weight: var(--gl-text-body-font-weight);
 }
 
 @mixin text-body-200() {
-  font-size: var();
-  line-height: var();
-  font-weight: var();
+    font-size: var(--gl-text-body-200-fs);
+    line-height: var(--gl-text-body-200-lh);
+    font-weight: var(--gl-text-body-font-weight);
 }
 
 @mixin text-body-300() {
-  font-size: var();
-  line-height: var();
-  font-weight: var();
+    font-size: var(--gl-text-body-300-fs);
+    line-height: var(--gl-text-body-300-lh);
+    font-weight: var(--gl-text-body-font-weight);
+}
+//endregion
+
+// region text-display
+@mixin text-display-100(){
+    font-size: var(--gl-text-display-100-fs);
+    line-height: var(--gl-text-display-100-lh);
+    font-weight: var(--gl-text-display-font-weight);
+}
+
+@mixin text-display-200(){
+    font-size: var(--gl-text-display-200-fs);
+    line-height: var(--gl-text-display-200-lh);
+    font-weight: var(--gl-text-display-font-weight);
+}
+
+@mixin text-display-300(){
+    font-size: var(--gl-text-display-300-fs);
+    line-height: var(--gl-text-display-300-lh);
+    font-weight: var(--gl-text-display-font-weight);
+}
+
+@mixin text-display-400(){
+    font-size: var(--gl-text-display-400-fs);
+    line-height: var(--gl-text-display-400-lh);
+    font-weight: var(--gl-text-display-font-weight);
+}
+// endregion
+
+// region text-caption
+@mixin text-caption-100(){
+    font-size: var(--gl-text-caption-100-fs);
+    line-height: var(--gl-text-caption-100-lh);
+    font-weight: var(--gl-text-caption-font-weight);
+}
+
+@mixin text-caption-200(){
+    font-size: var(--gl-text-caption-200-fs);
+    line-height: var(--gl-text-caption-200-lh);
+    font-weight: var(--gl-text-caption-font-weight);
+}
+// endregion
+
+// region text-code
+@mixin text-code-100(){
+    font-family: var(--gl-font-family-ms);
+    font-size: var(--gl-text-code-100-fs);
+    line-height: var(--gl-text-code-100-lh);
+    font-weight: var(--gl-text-code-font-weight);
+}
+
+@mixin text-code-200(){
+    font-family: var(--gl-font-family-ms);
+    font-size: var(--gl-text-code-200-fs);
+    line-height: var(--gl-text-code-200-lh);
+    font-weight: var(--gl-text-code-font-weight);
+}
+
+@mixin text-code-300(){
+    font-family: var(--gl-font-family-ms);
+    font-size: var(--gl-text-code-300-fs);
+    line-height: var(--gl-text-code-300-lh);
+    font-weight: var(--gl-text-code-font-weight);
+}
+// endregion
+
+// region text-inline-code
+@mixin text-inline-code-100(){
+    font-family: var(--gl-font-family-ms);
+    font-size: var(--gl-text-code-inline-100-fs);
+    line-height: var(--gl-text-code-inline-100-lh);
+    font-weight: var(--gl-text-code-font-weight);
+}
+
+@mixin text-inline-code-200(){
+    font-family: var(--gl-font-family-ms);
+    font-size: var(--gl-text-code-inline-200-fs);
+    line-height: var(--gl-text-code-inline-200-lh);
+    font-weight: var(--gl-text-code-font-weight);
+}
+
+@mixin text-inline-code-300(){
+    font-family: var(--gl-font-family-ms);
+    font-size: var(--gl-text-code-inline-300-fs);
+    line-height: var(--gl-text-code-inline-300-lh);
+    font-weight: var(--gl-text-code-font-weight);
+}
+// endregion
+
+@mixin text-short(){
+    font-size: var(--gl-text-short-fs);
+    line-height: var(--gl-text-short-lh);
+    font-weight: var(--gl-text-body-font-weight);
 }
