@@ -1,0 +1,87 @@
+@mixin variables{
+    --gl-font-family-s: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    --gl-font-family-ms: 'Monaco', 'Consolas', 'Ubuntu Mono', monospace;
+
+    --gl-text-header-font-family: var(--gl-font-family-s);
+    --gl-text-subheader-font-family: var(--gl-font-family-s);
+    --gl-text-display-font-family: var(--gl-font-family-s);
+    --gl-text-body-font-family: var(--gl-font-family-s);
+    --gl-text-caption-font-family: var(--gl-font-family-s);
+    --gl-text-code-font-family: var(--gl-font-family-ms);
+
+    --gl-text-header-font-weight: 600;
+    --gl-text-subheader-font-weight: 600;
+    --gl-text-display-font-weight: 600;
+    --gl-text-body-font-weight: 400;
+    --gl-text-caption-font-weight: 400;
+    --gl-text-code-font-weight: 400;
+    // maybe need added accent weight;
+
+    --gl-text-header-100-fs: 20px;
+    --gl-text-header-100-lh: 24px;
+
+    --gl-text-header-200-fs: 24px;
+    --gl-text-header-200-lh: 28px;
+
+    --gl-text-body-100-fs: 14px;
+    --gl-text-body-100-lh: 18px;
+
+    --gl-text-body-200-fs: 16px;
+    --gl-text-body-200-lh: 20px;
+
+    --gl-text-body-300-fs: 18px;
+    --gl-text-body-300-lh: 24px;
+
+    --gl-text-short-fs: 14px;
+    --gl-text-short-lh: 16px;
+
+    --gl-text-caption-100-fs: 10px;
+    --gl-text-caption-100-lh: 12px;
+
+    --gl-text-caption-200-fs: 12px;
+    --gl-text-caption-200-lh: 16px;
+
+    --gl-text-subheader-100-fs: 14px;
+    --gl-text-subheader-100-lh: 18px;
+
+    --gl-text-subheader-200-fs: 16px;
+    --gl-text-subheader-200-lh: 20px;
+
+    --gl-text-subheader-300-fs: 18px;
+    --gl-text-subheader-300-lh: 24px;
+
+    --gl-text-display-100-fs: 28px;
+    --gl-text-display-100-lh: 36px;
+
+    --gl-text-display-200-fs: 32px;
+    --gl-text-display-200-lh: 40px;
+
+    --gl-text-display-300-fs: 40px;
+    --gl-text-display-300-lh: 48px;
+
+    --gl-text-display-400-fs: 48px;
+    --gl-text-display-400-lh: 52px;
+
+    --gl-text-code-100-fs: 12px;
+    --gl-text-code-100-lh: 18px;
+
+    --gl-text-code-200-fs: 14px;
+    --gl-text-code-200-lh: 20px;
+
+    --gl-text-code-300-fs: 16px;
+    --gl-text-code-300-lh: 24px;
+
+    --gl-text-code-inline-100-fs: 12px;
+    --gl-text-code-inline-100-lh: 14px;
+
+    --gl-text-code-inline-200-fs: 14px;
+    --gl-text-code-inline-200-lh: 16px;
+
+    --gl-text-code-inline-300-fs: 16px;
+    --gl-text-code-inline-300-lh: 20px;
+
+    font-family: var(--gl-font-family-s);
+    font-size: var(--gl-text-body-100-fs);
+    line-height: var(--gl-text-body-100-lh);
+    font-weight: var(--gl-text-body-font-weight);
+}

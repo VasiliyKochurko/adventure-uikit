@@ -1,0 +1,23 @@
+@mixin max-height($height){
+  max-height: $height;
+  overflow-y: auto;
+}
+
+// Typography
+@mixin text-body-100() {
+  font-size: var();
+  line-height: var();
+  font-weight: var();
+}
+
+@mixin text-body-200() {
+  font-size: var();
+  line-height: var();
+  font-weight: var();
+}
+
+@mixin text-body-300() {
+  font-size: var();
+  line-height: var();
+  font-weight: var();
+}
